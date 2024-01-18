@@ -89,7 +89,7 @@ removebtn.addEventListener("click", (e) => {
 
             
             let key = e.key ;
-            if(key === "Shift"){
+            if(key === "."){
                 creatt(modalPriorityColor , textareaCont.value);
                 modalCont.style.display = "none";
                 addFlag = false;
